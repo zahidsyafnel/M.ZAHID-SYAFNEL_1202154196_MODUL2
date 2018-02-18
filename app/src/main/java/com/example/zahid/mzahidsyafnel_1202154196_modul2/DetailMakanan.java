@@ -9,8 +9,8 @@ import android.widget.TextView;
 
 public class DetailMakanan extends AppCompatActivity {
 
-    private TextView a,b,f;
-    private ImageView d;
+    private TextView x,y,z;
+    private ImageView f;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,13 +19,13 @@ public class DetailMakanan extends AppCompatActivity {
 
         //melakukan insiasi pada id nya
 
-        a = (TextView) findViewById(R.id.namamakanan);
+        x = (TextView) findViewById(R.id.namamakanan);
 
-        b = (TextView) findViewById(R.id.harga);
+        y = (TextView) findViewById(R.id.harga);
 
-        f = (TextView) findViewById(R.id.komposisi);
+        z = (TextView) findViewById(R.id.komposisi);
 
-        d = (ImageView) findViewById(R.id.gambar);
+        f = (ImageView) findViewById(R.id.gambar);
 
         //mensetting toolbar yang akan muncul di atas dengan nama List Makanan
         Toolbar mToolbar = (Toolbar) findViewById(R.id.appbar_detail);
@@ -41,10 +41,10 @@ public class DetailMakanan extends AppCompatActivity {
         String kmposisi= c.getStringExtra("komposisi");
         Integer gmbr = c.getIntExtra("gambar",0);
 
-        //melakukan set tex maupun setImageResource untuk data yang sudah di bawa dari layout sbeelumnya
-        a.setText(menu);
-        b.setText(hrga);
-        f.setText(kmposisi);
-        d.setImageResource(gmbr);
+        //melakukan mensetting text maupun setImageResource untuk data yang sudah di bawa dari layout sebelumnya
+        x.setText(menu);
+        y.setText(hrga);
+        z.setText(kmposisi);
+        f.setImageResource(gmbr);
     }
 }

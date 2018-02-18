@@ -22,9 +22,9 @@ public class ListPesanan extends AppCompatActivity {
     //Daftar Menu Makanan
     private String[] Judul = {"Asem Padeh", "Ayam Pop", "Dendeng Balado", "Gulai Ayam", "Gulai Cumi", "Gulai Tunjang Kikil",
             "Kepala Kakap", "Rendang Daging"};
-    //Daftar Harga
+    //Daftar  Makanan
     private String[] test = {"Rp. 20.000", "Rp. 20.000", "Rp. 20.000", "Rp. 25.000", "Rp. 20.000", "Rp. 20.000", "Rp. 25.000", "Rp. 25.000"};
-    //Daftar Gambar
+    //Daftar Gambar Makanan
     private int[] Gambar = {R.drawable.asampadeh, R.drawable.ayampop, R.drawable.dendengbalado, R.drawable.gulaiayam, R.drawable.gulaicumi,
             R.drawable.gulaitunjangkikil, R.drawable.kepalakakap, R.drawable.rendangdaging};
 

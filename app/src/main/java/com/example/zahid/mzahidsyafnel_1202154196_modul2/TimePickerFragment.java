@@ -14,12 +14,12 @@ public class TimePickerFragment extends DialogFragment implements TimePickerDial
     @NonNull
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
-        // Melakukan waktu default
+        // Melakukan waktu default standar
         final Calendar c = Calendar.getInstance();
         int jam = c.get(Calendar.HOUR_OF_DAY);
         int menit = c.get(Calendar.MINUTE);
 
-        // Membuat Time PickerDialog
+        // Membuat Time PickerDialog standar
         return new TimePickerDialog(getActivity(), this, jam, menit,
                 DateFormat.is24HourFormat(getActivity()));
     }

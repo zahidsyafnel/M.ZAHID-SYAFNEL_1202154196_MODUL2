@@ -41,10 +41,10 @@ public class TakeAway extends AppCompatActivity {
        String catatan = d.getEditText().getText().toString();
 
         if (nama.isEmpty()|| telepon.isEmpty() || alamat.isEmpty() || catatan.isEmpty()){
-            Toast.makeText(this,"Isi dulu bro",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Isi dulu bosku",Toast.LENGTH_LONG).show();
         }
 
-        //mengirimkan nama dan jumlah ke dalam intent agar bisa di get pada class yang di tuju
+        //mengirimkan nama dan jumlah ke dalam intent agar bisa di get pada class yang di tujukan
         Intent c = new Intent(TakeAway.this,ListPesanan.class);
         startActivity(c);
     }
@@ -70,7 +70,7 @@ public class TakeAway extends AppCompatActivity {
         String telepon = b.getEditText().getText().toString();
 
         if (nama.isEmpty() || telepon.isEmpty()) {
-            Toast.makeText(this, "Isi dulu bro", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Isi dulu bosku", Toast.LENGTH_LONG).show();
         } else {
 
             //Memasukkan bulan pertama dan bulan selanjutnya
@@ -89,7 +89,7 @@ public class TakeAway extends AppCompatActivity {
         String telepon = b.getEditText().getText().toString();
 
         if (nama.isEmpty() || telepon.isEmpty()) {
-            Toast.makeText(this, "Isi dulu bro", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Isi dulu bosku", Toast.LENGTH_LONG).show();
         } else {
 
 
